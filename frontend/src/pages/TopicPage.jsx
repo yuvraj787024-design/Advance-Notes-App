@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 
 import useTopic from "../hooks/useTopic";
-import Logout from "../components/logout";
+import Logout from "../components/Logout";
 import BASE_URL from "../config/api";
 
 const TopicPage = () => {
