@@ -6,7 +6,7 @@ import { createNotes } from '../services/subjectServices'
 import { toTitleCase } from '../utilis/subjectUtilis'
 
 import useSubject from '../hooks/useSubject'
-import Logout from '../components/Lsogout'
+import Logout from '../components/Logout'
 
 const NotesPage = () => {
   const navigate = useNavigate()
